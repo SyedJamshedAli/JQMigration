@@ -1,0 +1,54 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+
+# ===========================
+# Next.js
+# ===========================
+.next/
+out/
+.vercel/
+next-env.d.ts
+
+# ===========================
+# Build Output
+# ===========================
+build/
+dist/
+
+# ===========================
+# TypeScript
+# ===========================
+*.tsbuildinfo
+tsc_out.txt
+
+# ===========================
+# Testing
+# ===========================
+coverage/
+*.lcov
+.nyc_output/
+
+# ===========================
+# Misc
+# ===========================
+.cache/
+.turbo/
+.swc/
