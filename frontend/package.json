@@ -1,7 +1,7 @@
 {
   "name": "metronic-frontend",
   "version": "1.0.0",
-  "description": "Metronic Dashboard - Next.js Frontend with RTK Query",
+  "description": "JQ Legal & Migration - Next.js Frontend with RTK Query",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -17,21 +17,20 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { CoverPage } from './components/cover-page';
 import { NewClient } from './components/new-client';
-import { Applicant } from './components/applicant';
 
 const TABS = [
-  { label: 'New Client',  value: 'new-client',  icon: Users     },
-  { label: 'Cover Page',  value: 'cover-page',  icon: FileText  },
-  { label: 'Applicant',   value: 'applicant',   icon: UserCheck  },
-  { label: 'Sponsor',     value: 'sponsor',     icon: Award      },
-  { label: 'Contacts',    value: 'contacts',     icon: Users      },
-  { label: 'Staff',       value: 'staff',        icon: UserCog    },
-  { label: 'Dept',        value: 'dept',         icon: Building2  },
-  { label: 'Appeal',      value: 'appeal',       icon: Scale      },
-  { label: 'File Notes',  value: 'file-notes',   icon: StickyNote },
-  { label: 'Accounts',    value: 'accounts',     icon: CreditCard },
-  { label: 'Progress',    value: 'progress',     icon: BarChart2  },
-  { label: 'Documents',   value: 'documents',    icon: FolderOpen },
+  { label: 'New Client', value: 'new-client', icon: Users },
+  { label: 'Cover Page', value: 'cover-page', icon: FileText },
+  { label: 'Applicant', value: 'applicant', icon: UserCheck },
+  { label: 'Sponsor', value: 'sponsor', icon: Award },
+  { label: 'Contacts', value: 'contacts', icon: Users },
+  { label: 'Staff', value: 'staff', icon: UserCog },
+  { label: 'Dept', value: 'dept', icon: Building2 },
+  { label: 'Appeal', value: 'appeal', icon: Scale },
+  { label: 'File Notes', value: 'file-notes', icon: StickyNote },
+  { label: 'Accounts', value: 'accounts', icon: CreditCard },
+  { label: 'Progress', value: 'progress', icon: BarChart2 },
+  { label: 'Documents', value: 'documents', icon: FolderOpen },
 ];
 
 export default function NewCasePage() {
@@ -114,16 +113,16 @@ export default function NewCasePage() {
                 <TabsContent value="cover-page" className="mt-0">
                   <CoverPage />
                 </TabsContent>
-                <TabsContent value="applicant"  className="mt-0"><Applicant /></TabsContent>
-                <TabsContent value="sponsor"    className="mt-0"><div /></TabsContent>
-                <TabsContent value="contacts"   className="mt-0"><div /></TabsContent>
-                <TabsContent value="staff"      className="mt-0"><div /></TabsContent>
-                <TabsContent value="dept"       className="mt-0"><div /></TabsContent>
-                <TabsContent value="appeal"     className="mt-0"><div /></TabsContent>
+                <TabsContent value="applicant" className="mt-0"></TabsContent>
+                <TabsContent value="sponsor" className="mt-0"><div /></TabsContent>
+                <TabsContent value="contacts" className="mt-0"><div /></TabsContent>
+                <TabsContent value="staff" className="mt-0"><div /></TabsContent>
+                <TabsContent value="dept" className="mt-0"><div /></TabsContent>
+                <TabsContent value="appeal" className="mt-0"><div /></TabsContent>
                 <TabsContent value="file-notes" className="mt-0"><div /></TabsContent>
-                <TabsContent value="accounts"   className="mt-0"><div /></TabsContent>
-                <TabsContent value="progress"   className="mt-0"><div /></TabsContent>
-                <TabsContent value="documents"  className="mt-0"><div /></TabsContent>
+                <TabsContent value="accounts" className="mt-0"><div /></TabsContent>
+                <TabsContent value="progress" className="mt-0"><div /></TabsContent>
+                <TabsContent value="documents" className="mt-0"><div /></TabsContent>
               </div>
             </Tabs>
           </div>

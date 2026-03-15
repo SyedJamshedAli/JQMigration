@@ -1,7 +1,7 @@
 {
   "name": "metronic-backend",
   "version": "1.0.0",
-  "description": "Metronic Dashboard - NestJS Backend",
+  "description": "JQ Legal & Migration - NestJS Backend",
   "private": true,
   "scripts": {
     "build": "nest build",

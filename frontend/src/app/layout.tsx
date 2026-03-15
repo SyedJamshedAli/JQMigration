@@ -6,7 +6,7 @@ import { ThemeProvider } from '@/providers/theme-provider';
 import { SettingsProvider } from '@/providers/settings-provider';
 
 export const metadata: Metadata = {
-  title: 'Metronic Dashboard',
+  title: 'JQ Legal & Migration',
   description: 'Metronic Admin Dashboard',
 };
 

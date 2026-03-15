@@ -23,7 +23,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Metronic API')
-    .setDescription('Metronic Dashboard Backend API')
+    .setDescription('JQ Legal & Migration Backend API')
     .setVersion('1.0')
     .addBearerAuth()
     .build();
