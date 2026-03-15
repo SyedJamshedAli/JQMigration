@@ -1,0 +1,1431 @@
+﻿
+> metronic-frontend@1.0.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+npm : 
+At line:1 char:1
++ npm run build > 
+build.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (:String   
+ ) [], RemoteExce    
+ption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+> Build error 
+occurred
+Error: Turbopack 
+build failed with 9 
+errors:
+./src/app/(protected)
+/new/case/page.tsx:20
+:1
+Module not found: 
+Can't resolve './comp
+onents/applicant'
+[0m [90m 18 |[39m 
+[36mimport[39m { 
+[33mCoverPage[39m 
+} [36mfrom[39m [32
+m'./components/cover-
+page'[39m[33m;[39m
+ [90m 19 |[39m 
+[36mimport[39m { 
+[33mNewClient[39m 
+} [36mfrom[39m [32
+m'./components/new-cl
+ient'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 20 |[39m 
+[36mimport[39m { 
+[33mApplicant[39m 
+} [36mfrom[39m [32
+m'./components/applic
+ant'[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m
+ [90m 21 |[39m
+ [90m 22 |[39m 
+[36mconst[39m 
+[33mTABS[39m 
+[33m=[39m [
+ [90m 23 |[39m   { 
+label[33m:[39m 
+[32m'New Client'[39
+m[33m,[39m  
+value[33m:[39m [32
+m'new-client'[39m[3
+3m,[39m  
+icon[33m:[39m 
+[33mUsers[39m     
+}[33m,[39m[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./src/app/(protec
+ted)/new/case/page.ts
+x [Client Component 
+Browser]
+    ./src/app/(protec
+ted)/new/case/page.ts
+x [Server Component]
+
+  Client Component 
+SSR:
+    ./src/app/(protec
+ted)/new/case/page.ts
+x [Client Component 
+SSR]
+    ./src/app/(protec
+ted)/new/case/page.ts
+x [Server Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./src/app/(protected)
+/dashboard/content.ts
+x:4:1
+Module not found: 
+Can't resolve './comp
+onents/members-teams-
+roles'
+[0m [90m 2 |[39m
+ [90m 3 |[39m 
+[36mimport[39m { [
+33mActiveCases[39m 
+} [36mfrom[39m [32
+m'./components/active
+-cases'[39m[33m;[3
+9m
+[31m[1m>[22m[39m
+[90m 4 |[39m 
+[36mimport[39m { [
+33mMembersTeamsRoles
+[39m } 
+[36mfrom[39m [32m'
+./components/members-
+teams-roles'[39m[33
+m;[39m
+ [90m   |[39m [31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m
+ [90m 5 |[39m 
+[36mimport[39m { 
+[33mMyBalance[39m 
+} [36mfrom[39m [32
+m'./components/my-bal
+ance'[39m[33m;[39m
+ [90m 6 |[39m 
+[36mimport[39m { [
+33mPendingTasks[39m 
+} [36mfrom[39m [32
+m'./components/pendin
+g-tasks'[39m[33m;[
+39m
+ [90m 7 |[39m[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./src/app/(protec
+ted)/dashboard/conten
+t.tsx [Client 
+Component Browser]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Client Component 
+Browser]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Server Component]
+
+  Client Component 
+SSR:
+    ./src/app/(protec
+ted)/dashboard/conten
+t.tsx [Client 
+Component SSR]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Client Component 
+SSR]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Server Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./src/app/(protected)
+/dashboard/content.ts
+x:5:1
+Module not found: 
+Can't resolve './comp
+onents/my-balance'
+[0m [90m 3 |[39m 
+[36mimport[39m { [
+33mActiveCases[39m 
+} [36mfrom[39m [32
+m'./components/active
+-cases'[39m[33m;[3
+9m
+ [90m 4 |[39m 
+[36mimport[39m { [
+33mMembersTeamsRoles
+[39m } 
+[36mfrom[39m [32m'
+./components/members-
+teams-roles'[39m[33
+m;[39m
+[31m[1m>[22m[39m
+[90m 5 |[39m 
+[36mimport[39m { 
+[33mMyBalance[39m 
+} [36mfrom[39m [32
+m'./components/my-bal
+ance'[39m[33m;[39m
+ [90m   |[39m [31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m
+ [90m 6 |[39m 
+[36mimport[39m { [
+33mPendingTasks[39m 
+} [36mfrom[39m [32
+m'./components/pendin
+g-tasks'[39m[33m;[
+39m
+ [90m 7 |[39m
+ [90m 8 |[39m 
+[36mexport[39m 
+[36mfunction[39m [
+33mDashboardContent[
+39m() {[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./src/app/(protec
+ted)/dashboard/conten
+t.tsx [Client 
+Component Browser]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Client Component 
+Browser]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Server Component]
+
+  Client Component 
+SSR:
+    ./src/app/(protec
+ted)/dashboard/conten
+t.tsx [Client 
+Component SSR]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Client Component 
+SSR]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Server Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./src/app/(protected)
+/dashboard/content.ts
+x:6:1
+Module not found: 
+Can't resolve './comp
+onents/pending-tasks'
+[0m [90m 4 |[39m 
+[36mimport[39m { [
+33mMembersTeamsRoles
+[39m } 
+[36mfrom[39m [32m'
+./components/members-
+teams-roles'[39m[33
+m;[39m
+ [90m 5 |[39m 
+[36mimport[39m { 
+[33mMyBalance[39m 
+} [36mfrom[39m [32
+m'./components/my-bal
+ance'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 6 |[39m 
+[36mimport[39m { [
+33mPendingTasks[39m 
+} [36mfrom[39m [32
+m'./components/pendin
+g-tasks'[39m[33m;[
+39m
+ [90m   |[39m [31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+ [90m 7 |[39m
+ [90m 8 |[39m 
+[36mexport[39m 
+[36mfunction[39m [
+33mDashboardContent[
+39m() {
+ [90m 9 |[39m   
+[36mreturn[39m 
+([0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./src/app/(protec
+ted)/dashboard/conten
+t.tsx [Client 
+Component Browser]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Client Component 
+Browser]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Server Component]
+
+  Client Component 
+SSR:
+    ./src/app/(protec
+ted)/dashboard/conten
+t.tsx [Client 
+Component SSR]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Client Component 
+SSR]
+    ./src/app/(protec
+ted)/dashboard/page.t
+sx [Server Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./src/app/(protected)
+/new/case/components/
+cover-page.tsx:19:1
+Module not found: 
+Can't resolve 
+'./country-select'
+[0m [90m 17 |[39m 
+[36mimport[39m { [
+33mTabs[39m[33m,[3
+9m [33mTabsContent[
+39m[33m,[39m [33mT
+absList[39m[33m,[3
+9m [33mTabsTrigger[
+39m } [36mfrom[39m 
+[32m'@/components/ui
+/tabs'[39m[33m;[39
+m
+ [90m 18 |[39m 
+[36mimport[39m { [
+33mCard[39m[33m,[3
+9m [33mCardContent[
+39m } [36mfrom[39m 
+[32m'@/components/ui
+/card'[39m[33m;[39
+m
+[31m[1m>[22m[39m
+[90m 19 |[39m 
+[36mimport[39m { [
+33mCountrySelect[39m
+ } [36mfrom[39m [3
+2m'./country-select'
+[39m[33m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m
+ [90m 20 |[39m
+ [90m 21 |[39m 
+[36mfunction[39m [
+33mSectionBox[39m({
+ [90m 22 |[39m   
+title[33m,[39m[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./src/app/(protec
+ted)/new/case/compone
+nts/cover-page.tsx 
+[Client Component 
+Browser]
+    ./src/app/(protec
+ted)/new/case/page.ts
+x [Client Component 
+Browser]
+    ./src/app/(protec
+ted)/new/case/page.ts
+x [Server Component]
+
+  Client Component 
+SSR:
+    ./src/app/(protec
+ted)/new/case/compone
+nts/cover-page.tsx 
+[Client Component 
+SSR]
+    ./src/app/(protec
+ted)/new/case/page.ts
+x [Client Component 
+SSR]
+    ./src/app/(protec
+ted)/new/case/page.ts
+x [Server Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./src/app/(protected)
+/administration/users
+/page.tsx:28:33
+Module not found: 
+Can't resolve '@/app/
+(protected)/new/case/
+components/country-se
+lect'
+[0m [90m 26 |[39m 
+  [33mSelectValue[3
+9m[33m,[39m
+ [90m 27 |[39m } 
+[36mfrom[39m [32m'
+@/components/ui/selec
+t'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 28 |[39m 
+[36mimport[39m { 
+cn } [36mfrom[39m 
+[32m'@/lib/utils'[39
+m[33m;[39m
+ [90m    |[39m     
+                     
+       
+[31m[1m^[22m[39m
+[31m[1m>[22m[39m
+[90m 29 |[39m 
+[36mimport[39m { 
+[33mCOUNTRIES[39m 
+} [36mfrom[39m [32
+m'@/app/(protected)/n
+ew/case/components/co
+untry-select'[39m[3
+3m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m
+ [90m 30 |[39m
+ [90m 31 |[39m 
+[36mfunction[39m [
+33mSectionBox[39m({ 
+title[33m,[39m 
+children 
+}[33m:[39m { 
+title[33m:[39m 
+string[33m;[39m 
+children[33m:[39m 
+[33mReact[39m[33m.
+[39m[33mReactNode[3
+9m }) {
+ [90m 32 |[39m   
+[36mreturn[39m 
+([0m
+
+Import map: aliased 
+to relative './src/ap
+p/(protected)/new/cas
+e/components/country-
+select' inside of 
+[project]/ | aliased 
+to relative './src/ap
+p/components/app/(pro
+tected)/new/case/comp
+onents/country-select
+' inside of 
+[project]/
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./src/app/(protec
+ted)/administration/u
+sers/page.tsx 
+[Client Component 
+Browser]
+    ./src/app/(protec
+ted)/administration/u
+sers/page.tsx 
+[Server Component]
+
+  Client Component 
+SSR:
+    ./src/app/(protec
+ted)/administration/u
+sers/page.tsx 
+[Client Component 
+SSR]
+    ./src/app/(protec
+ted)/administration/u
+sers/page.tsx 
+[Server Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./src/app/(protected)
+/super-admin/applicat
+ion-users/page.tsx:28
+:33
+Module not found: 
+Can't resolve '@/app/
+(protected)/new/case/
+components/country-se
+lect'
+[0m [90m 26 |[39m 
+  [33mSelectValue[3
+9m[33m,[39m
+ [90m 27 |[39m } 
+[36mfrom[39m [32m'
+@/components/ui/selec
+t'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 28 |[39m 
+[36mimport[39m { 
+cn } [36mfrom[39m 
+[32m'@/lib/utils'[39
+m[33m;[39m
+ [90m    |[39m     
+                     
+       
+[31m[1m^[22m[39m
+[31m[1m>[22m[39m
+[90m 29 |[39m 
+[36mimport[39m { 
+[33mCOUNTRIES[39m 
+} [36mfrom[39m [32
+m'@/app/(protected)/n
+ew/case/components/co
+untry-select'[39m[3
+3m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m
+ [90m 30 |[39m
+ [90m 31 |[39m 
+[36mfunction[39m [
+33mSectionBox[39m({ 
+title[33m,[39m 
+children 
+}[33m:[39m { 
+title[33m:[39m 
+string[33m;[39m 
+children[33m:[39m 
+[33mReact[39m[33m.
+[39m[33mReactNode[3
+9m }) {
+ [90m 32 |[39m   
+[36mreturn[39m 
+([0m
+
+Import map: aliased 
+to relative './src/ap
+p/(protected)/new/cas
+e/components/country-
+select' inside of 
+[project]/ | aliased 
+to relative './src/ap
+p/components/app/(pro
+tected)/new/case/comp
+onents/country-select
+' inside of 
+[project]/
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./src/app/(protec
+ted)/super-admin/appl
+ication-users/page.ts
+x [Client Component 
+Browser]
+    ./src/app/(protec
+ted)/super-admin/appl
+ication-users/page.ts
+x [Server Component]
+
+  Client Component 
+SSR:
+    ./src/app/(protec
+ted)/super-admin/appl
+ication-users/page.ts
+x [Client Component 
+SSR]
+    ./src/app/(protec
+ted)/super-admin/appl
+ication-users/page.ts
+x [Server Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./src/app/(protected)
+/super-admin/organiza
+tions/page.tsx:21:33
+Module not found: 
+Can't resolve '@/app/
+(protected)/new/case/
+components/country-se
+lect'
+[0m [90m 19 |[39m 
+  [33mCommandList[3
+9m[33m,[39m
+ [90m 20 |[39m } 
+[36mfrom[39m [32m'
+@/components/ui/comma
+nd'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 21 |[39m 
+[36mimport[39m { 
+cn } [36mfrom[39m 
+[32m'@/lib/utils'[39
+m[33m;[39m
+ [90m    |[39m     
+                     
+       
+[31m[1m^[22m[39m
+[31m[1m>[22m[39m
+[90m 22 |[39m 
+[36mimport[39m { 
+[33mCOUNTRIES[39m 
+} [36mfrom[39m [32
+m'@/app/(protected)/n
+ew/case/components/co
+untry-select'[39m[3
+3m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m
+ [90m 23 |[39m
+ [90m 24 |[39m 
+[36mfunction[39m [
+33mSectionBox[39m({ 
+title[33m,[39m 
+children 
+}[33m:[39m { 
+title[33m:[39m 
+string[33m;[39m 
+children[33m:[39m 
+[33mReact[39m[33m.
+[39m[33mReactNode[3
+9m }) {
+ [90m 25 |[39m   
+[36mreturn[39m 
+([0m
+
+Import map: aliased 
+to relative './src/ap
+p/(protected)/new/cas
+e/components/country-
+select' inside of 
+[project]/ | aliased 
+to relative './src/ap
+p/components/app/(pro
+tected)/new/case/comp
+onents/country-select
+' inside of 
+[project]/
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./src/app/(protec
+ted)/super-admin/orga
+nizations/page.tsx 
+[Client Component 
+Browser]
+    ./src/app/(protec
+ted)/super-admin/orga
+nizations/page.tsx 
+[Server Component]
+
+  Client Component 
+SSR:
+    ./src/app/(protec
+ted)/super-admin/orga
+nizations/page.tsx 
+[Client Component 
+SSR]
+    ./src/app/(protec
+ted)/super-admin/orga
+nizations/page.tsx 
+[Server Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+./src/app/(protected)
+/super-admin/users/pa
+ge.tsx:28:33
+Module not found: 
+Can't resolve '@/app/
+(protected)/new/case/
+components/country-se
+lect'
+[0m [90m 26 |[39m 
+  [33mSelectValue[3
+9m[33m,[39m
+ [90m 27 |[39m } 
+[36mfrom[39m [32m'
+@/components/ui/selec
+t'[39m[33m;[39m
+[31m[1m>[22m[39m
+[90m 28 |[39m 
+[36mimport[39m { 
+cn } [36mfrom[39m 
+[32m'@/lib/utils'[39
+m[33m;[39m
+ [90m    |[39m     
+                     
+       
+[31m[1m^[22m[39m
+[31m[1m>[22m[39m
+[90m 29 |[39m 
+[36mimport[39m { 
+[33mCOUNTRIES[39m 
+} [36mfrom[39m [32
+m'@/app/(protected)/n
+ew/case/components/co
+untry-select'[39m[3
+3m;[39m
+ [90m    |[39m [31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m[31m[1m^[22m[39m
+[31m[1m^[22m[39m
+[31m[1m^[22m[39m[
+31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31
+m[1m^[22m[39m[31m
+[1m^[22m[39m[31m
+[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^
+[22m[39m[31m[1m^
+[22m[39m[31m[1m^[
+22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22
+m[39m[31m[1m^[22m
+[39m[31m[1m^[22m
+[39m[31m[1m^[22m[
+39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39
+m
+ [90m 30 |[39m
+ [90m 31 |[39m 
+[36mfunction[39m [
+33mSectionBox[39m({ 
+title[33m,[39m 
+children 
+}[33m:[39m { 
+title[33m:[39m 
+string[33m;[39m 
+children[33m:[39m 
+[33mReact[39m[33m.
+[39m[33mReactNode[3
+9m }) {
+ [90m 32 |[39m   
+[36mreturn[39m 
+([0m
+
+Import map: aliased 
+to relative './src/ap
+p/(protected)/new/cas
+e/components/country-
+select' inside of 
+[project]/ | aliased 
+to relative './src/ap
+p/components/app/(pro
+tected)/new/case/comp
+onents/country-select
+' inside of 
+[project]/
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./src/app/(protec
+ted)/super-admin/user
+s/page.tsx [Client 
+Component Browser]
+    ./src/app/(protec
+ted)/super-admin/user
+s/page.tsx [Server 
+Component]
+
+  Client Component 
+SSR:
+    ./src/app/(protec
+ted)/super-admin/user
+s/page.tsx [Client 
+Component SSR]
+    ./src/app/(protec
+ted)/super-admin/user
+s/page.tsx [Server 
+Component]
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+    at <unknown> (./s
+rc/app/(protected)/ne
+w/case/page.tsx:20:1)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./s
+rc/app/(protected)/da
+shboard/content.tsx:4
+:1)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./s
+rc/app/(protected)/da
+shboard/content.tsx:5
+:1)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./s
+rc/app/(protected)/da
+shboard/content.tsx:6
+:1)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./s
+rc/app/(protected)/ne
+w/case/components/cov
+er-page.tsx:19:1)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./s
+rc/app/(protected)/ad
+ministration/users/pa
+ge.tsx:28:33)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./s
+rc/app/(protected)/su
+per-admin/application
+-users/page.tsx:28:33
+)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./s
+rc/app/(protected)/su
+per-admin/organizatio
+ns/page.tsx:21:33)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
+    at <unknown> (./s
+rc/app/(protected)/su
+per-admin/users/page.
+tsx:28:33)
+    at <unknown> (htt
+ps://nextjs.org/docs/
+messages/module-not-f
+ound)
